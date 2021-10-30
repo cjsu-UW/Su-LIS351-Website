@@ -7,12 +7,6 @@ body.recipes {
 h2 {
   font-family: 'Tahoma', "serif";
 }
-h1 {
-  font-weight: bolder
-}
-p {
-  font-weight: thick;
-}
 ul.foodlist {
   list-style-type: none;
   margin: 0;
