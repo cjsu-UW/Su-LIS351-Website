@@ -1,0 +1,83 @@
+body {
+  font-family: 'Courier New', Courier, monospace, "sans-serif";
+}
+body.recipes {
+  background-color: lightblue;
+}
+h2 {
+  font-family: 'Tahoma', "serif";
+}
+h1 {
+  font-weight: bolder
+}
+p {
+  font-weight: thick;
+}
+ul.foodlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #5fdbc7;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+.abouttxt {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #586446;
+  padding: 10px;
+}
+
+li.FoodCategory a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li.FoodCategory a:hover {
+  background-color: #555;
+  color: white;
+}
+
+li.tab a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3A3829;
+}
+
+li.tab a {
+  float: left;
+}
+
+
+li.tab a   {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.tab a:hover {
+  background-color: #111;
+}
+img.scissor {
+  border-radius: 50%;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
